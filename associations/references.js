@@ -8,14 +8,7 @@ var postSchema = new mongoose.Schema({
 });
 var Post = mongoose.model("Post", postSchema);
 
-var userSchema = new mongoose.Schema({
-    email: String,
-    name: String,
-    posts: [{
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "Post"
-    }]
-});
+
 var user = mongoose.model("User", userSchema);
 
 // user.create({
