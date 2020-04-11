@@ -1,10 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="693cfa74-b576-420c-b457-ba9674f3215d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restroot2/views/new.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/restroot2/views/new.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restroot2/views/partials/footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/restroot2/views/partials/footer.ejs" afterDir="false" />
+    <list default="true" id="693cfa74-b576-420c-b457-ba9674f3215d" name="Default Changelist" comment="added node_modules to gitignore">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/changelog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.core.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/any.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/assert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/async.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/bind.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/bluebird.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/call_get.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/cancel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/catch_filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/context.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/debuggability.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/direct_resolve.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/each.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/errors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/finally.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/generators.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/join.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/method.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/nodeback.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/nodeify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/promise_array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/promisify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/props.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/queue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/race.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/reduce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/schedule.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/settle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/some.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/synchronous_inspection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/thenables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/timers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/using.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/package.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -82,7 +125,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -124,6 +171,7 @@
         <option value="$PROJECT_DIR$/associations/app.js" />
         <option value="$PROJECT_DIR$/restroot2/views/new.ejs" />
         <option value="$PROJECT_DIR$/restroot2/views/partials/footer.ejs" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -144,6 +192,16 @@
             <path>
               <item name="YelpPalace2" type="b2602c69:ProjectViewProjectNode" />
               <item name="YelpPalace2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="YelpPalace2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YelpPalace2" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="YelpPalace2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YelpPalace2" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,7 +272,7 @@
       <workItem from="1586317137692" duration="26000" />
       <workItem from="1586565801843" duration="24000" />
       <workItem from="1586565832504" duration="20000" />
-      <workItem from="1586565865085" duration="992000" />
+      <workItem from="1586565865085" duration="1234000" />
     </task>
     <task id="LOCAL-00001" summary="added comments in file app.js">
       <created>1586567067998</created>
@@ -223,11 +281,25 @@
       <option name="project" value="LOCAL" />
       <updated>1586567067998</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added gitignore. modified new.ejs and footer.ejs">
+      <created>1586567371625</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586567371625</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added node_modules to gitignore">
+      <created>1586567451148</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586567451148</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57326000" />
+    <option name="totallyTimeSpent" value="57568000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -242,7 +314,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1600" height="877" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.61787075" visible="true" weight="0.15452819" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.61787075" visible="true" weight="0.15452819" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="npm" order="3" sideWeight="0.38212928" side_tool="true" visible="true" weight="0.15452819" />
@@ -254,7 +326,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3299363" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.477707" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -293,7 +365,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added comments in file app.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="added comments in file app.js" />
+    <MESSAGE value="added gitignore. modified new.ejs and footer.ejs" />
+    <MESSAGE value="added node_modules to gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="added node_modules to gitignore" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/package-lock.json">
@@ -448,13 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/restroot2/views/new.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/restroot2/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -466,6 +533,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restroot2/views/new.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
