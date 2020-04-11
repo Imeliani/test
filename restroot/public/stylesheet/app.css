@@ -1,0 +1,12 @@
+i.icon{
+    font-size: 1.25em;
+}
+.container.main {
+    margin: 7em;
+}
+.yoot{
+    margin-top: 2em;
+}
+#delete{
+    display: inline;
+}

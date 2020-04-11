@@ -1,0 +1,32 @@
+<%include ./partials/header.ejs%>
+
+<div class="ui main text container segment">
+    <div class="ui huge header">
+        New Book
+    </div>
+    <form class="ui form" action="/books" method="POST">
+        <div class="field">
+            <label>Title</label>
+            <input type="text" name="book[title]" placeholder="title">
+        </div>
+        <div class="field">
+            <label>Author</label>
+            <input type="text" name="book[author]" placeholder="author">
+        </div>
+        <div class="field">
+            <label>Genre</label>
+            <input type="text" name="book[genre]" placeholder="genre">
+        </div>
+        <div class="field">
+            <label>Image</label>
+            <input type="text" name="book[cover]" placeholder="image">
+        </div>
+        <div class="field">
+            <label>Resume</label>
+            <textarea name="book[resume]"></textarea>
+        </div>
+        <button class="ui blue basic button" type="submit">Submit</button>
+    </form>
+</div>
+
+<%include ./partials/footer.ejs%>
